@@ -25,7 +25,7 @@ def get_filters():
             (str) city - name of the city to analyze
         """
         while True:
-            city = input("Please enter the name of the city (Chicago, New York City, Washington): ")
+            city = input("Please enter the name of the city (chicago, new York City, washington): ")
             city = city.lower()
             if city in ['chicago', 'new york city', 'washington']:
                 return city

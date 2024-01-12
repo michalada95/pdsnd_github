@@ -30,7 +30,7 @@ def get_filters():
             if city in ['chicago', 'new york city', 'washington']:
                 return city
             else:
-                print("Invalid input. Please enter a valid city.")
+                print("Unfortunately invalid input. Please enter a valid city.")
 
     city = get_city()
 
@@ -210,15 +210,15 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    show_data = input("Do you want to see the first 5 rows of data? Enter 'yes' or 'no': ").lower()
+    show_data = input("Do you want to see the first 10 rows of data? Enter 'yes' or 'no': ").lower()
     start_row = 0
-    end_row = 5
+    end_row = 10
 
     while show_data == 'yes':
         print(df[start_row:end_row])
-        start_row += 5
-        end_row += 5
-        show_data = input("Do you want to see the next 5 rows of data? Enter 'yes' or 'no': ").lower()
+        start_row += 10
+        end_row += 10
+        show_data = input("Do you want to see the next 10 rows of data? Enter 'yes' or 'no': ").lower()
 
 def main():
     while True:

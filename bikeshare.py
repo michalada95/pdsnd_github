@@ -30,7 +30,7 @@ def get_filters():
             if city in ['chicago', 'new york city', 'washington']:
                 return city
             else:
-                print("Invalid input. Please enter a valid city.")
+                print("Unfortunately invalid input. Please enter a valid city.")
 
     city = get_city()
 

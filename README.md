@@ -18,3 +18,4 @@ bikeshare.py
 ### Credits
 https://en.wikipedia.org/wiki/Divvy
 https://github.com/
+https://superuser.com/questions/751699/is-there-a-way-to-edit-a-commit-message-on-github
